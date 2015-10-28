@@ -1,4 +1,3 @@
-import nose.tools as nt
 # import NAME
 
 
@@ -11,5 +10,5 @@ def teardown():
 
 
 def test_basic():
-    nt.eq_(1 + 1, 2)
+    assert 1 + 1 == 2
     print "I RAN!"
